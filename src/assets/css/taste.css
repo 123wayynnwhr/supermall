@@ -1,0 +1,1222 @@
+* {
+	outline: 0
+}
+
+.holiday_menu {
+	height: 66px;
+	line-height: 66px;
+	background: #A52F3A;
+	text-align: center;
+	color: #fff;
+	font-size: 26px
+}
+
+.holiday-wrapper {
+	width: 860px;
+	padding: 0 0 0 58px
+}
+
+.holiday_depict {
+	margin: 0 auto;
+	color: #998E71;
+	font-size: 14px;
+	line-height: 25px;
+	padding: 20px 0 0 20px
+}
+
+.holiday_con_text {
+	padding: 10px 0 0;
+	text-align: center
+}
+
+.holiday_content {
+	margin: 0 auto
+}
+
+.holiday_content .holiday_pic {
+	width: 424px;
+	text-align: center
+}
+
+.holiday_content .holiday_font {
+	width: 395px;
+	padding: 49px 0 0
+}
+
+.holiday_content .holiday_font .cookbook_name {
+	font-size: 16px;
+	color: #595A5B;
+	line-height: 25px
+}
+
+.holiday_content .holiday_font .cookbook_ms {
+	font-size: 14px;
+	color: #998E71;
+	line-height: 25px;
+	padding: 20px 0 7px
+}
+
+.holiday_content .wmdp {
+	font-size: 16px;
+	color: #775D4B;
+	margin: 20px 0 10px
+}
+
+.holiday_content .wmdp_pic {
+	padding: 0 0 30px
+}
+
+.holiday_content .wmdp_pic a {
+	color: #998E71;
+	text-decoration: none
+}
+
+.holiday_content .wmdp_pic a:hover {
+	text-decoration: underline
+}
+
+.holiday_content .wmdp_pic .title {
+	line-height: 25px;
+	padding: 10px 0 0
+}
+
+.material {
+	text-align: left
+}
+
+.material dt {
+	padding: 0 0 6px;
+	line-height: 25px;
+	font-size: 16px;
+	color: #775D4B;
+	border-bottom: 1px solid #b5ac91
+}
+
+.material li {
+	float: left;
+	width: 100%;
+	height: 35px;
+	line-height: 30px;
+	border-bottom: 1px dashed #B5AC91;
+	color: #998E71
+}
+
+.material .name {
+	width: 176px;
+	height: 35px;
+	padding: 0 0 0 22px;
+	line-height: 35px
+}
+
+.material .name.title {
+	color: #775d4b
+}
+
+.material .count {
+	padding: 0 0 0 10px;
+	line-height: 35px
+}
+
+.material p {
+	text-align: center
+}
+
+.material .wmdp {
+	margin: 0
+}
+
+.material a {
+	color: #998E71;
+	text-decoration: none
+}
+
+.material a:hover {
+	text-decoration: underline
+}
+
+.cooking {
+	padding: 50px 0 0;
+	text-align: left
+}
+
+.cooking .cooking_title {
+	padding: 0 0 8px;
+	line-height: 25px;
+	font-size: 16px;
+	color: #775D4B
+}
+
+.cooking dl {
+	padding: 0 0 5px
+}
+
+.cooking dt {
+	font-size: 18px;
+	line-height: 30px;
+	color: #775d4b
+}
+
+.cooking dd {
+	margin: 0 0 0 12px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #998E71
+}
+
+.cooking dd a {
+	position: relative;
+	color: #A37474;
+	text-decoration: underline
+}
+
+.cooking dd .product {
+	position: absolute;
+	top: -210px;
+	left: 0;
+	display: none;
+	margin: 0
+}
+
+.cooking dd a:hover .product {
+	display: block
+}
+
+.vd-atricle-wapper {
+	padding: 30px 0 0 20px
+}
+
+.vd-atricle-wapper h2 {
+	height: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #775d4b
+}
+
+.vd-atricle-wapper dl {
+	margin: 0 0 50px
+}
+
+.vd-atricle-wapper dt {
+	height: 30px;
+	font-size: 18px;
+	color: #775d4b;
+	line-height: 30px;
+	font-family: Aparajita,'Segoe UI',MicrosoftYaHei,"寰蒋闆呴粦",SimSun,"瀹嬩綋",sans-serif;
+	text-transform: uppercase
+}
+
+.vd-atricle-wapper dd {
+	padding: 0 15px;
+	color: #998e71;
+	line-height: 25px;
+	text-align: justify
+}
+
+.vd-atricle-wapper dd .atricle-img {
+	padding: 30px 0 0
+}
+
+.vd-atricle-wapper dd a {
+	position: relative;
+	color: #A37474;
+	text-decoration: underline
+}
+
+.vd-atricle-wapper dd .vd-product {
+	position: absolute;
+	top: -210px;
+	left: 0;
+	display: none;
+	margin: 0
+}
+
+.vd-atricle-wapper dd a:hover .vd-product {
+	display: block
+}
+
+.share-content {
+	height: 40px;
+	padding: 60px 0 0;
+	margin: 0 auto
+}
+
+.share-content .share-link {
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	margin: 0 0 0 30px;
+	padding: 0 10px;
+	height: 24px;
+	font-size: 12px;
+	color: #808285;
+	line-height: 24px;
+	background: #f2f2f2
+}
+
+.share-content .share-warp {
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	margin: 0 0 0 30px
+}
+
+.share-content .share-warp span {
+	display: inline-block;
+	height: 24px;
+	margin: 0 6px 0 0;
+	padding: 0 10px;
+	font-size: 12px;
+	color: #808285;
+	line-height: 24px;
+	background: #f2f2f2
+}
+
+.p_share {
+	float: right;
+	width: 125px;
+	height: 40px;
+	margin: 0;
+	line-height: 40px
+}
+
+.p_share dt {
+	width: 50px;
+	float: left;
+	font-size: 14px
+}
+
+.p_share dd {
+	margin: 10px 0 0 50px
+}
+
+.p_share li {
+	float: left;
+	margin: 0 5px 0 0
+}
+
+.p_share li span {
+	display: none
+}
+
+/* .p_share .bshare-custom .bshare-sinaminiblog {
+	width: 20px;
+	height: 20px;
+	background: url(../images/share_bj.png)
+} */
+
+/* .p_share .bshare-custom .bshare-sinaminiblog:hover {
+	width: 20px;
+	height: 20px;
+	background: url(../images/share_bj.png) 0 -40px
+} */
+
+/* .p_share .bshare-custom .bshare-qqmb {
+	width: 20px;
+	height: 20px;
+	background: url(../images/share_bj.png) -40px 0
+}
+
+.p_share .bshare-custom .bshare-qqmb:hover {
+	width: 20px;
+	height: 20px;
+	background: url(../images/share_bj.png) -40px -40px
+} */
+
+/* .p_share .bshare-custom .bshare-weixin {
+	width: 20px;
+	height: 20px;
+	background: url(../images/share_bj.png) -80px 0
+} */
+
+/* .p_share .bshare-custom .bshare-weixin:hover {
+	width: 20px;
+	height: 20px;
+	background: url(../images/share_bj.png) -80px -40px
+} */
+
+.p_share .bshare-custom a {
+	padding: 0;
+	margin: 0 5px 0 0
+}
+
+.pagebtn {
+	width: 1000px;
+	padding: 24px 0 0;
+	margin: 0 auto;
+	text-align: center
+}
+
+.pagebtn a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 183px;
+	height: 60px;
+	line-height: 46px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px
+}
+
+/* .pagebtn .prev {
+	background: url(../images/prev_bj.jpg)
+} */
+
+/* .pagebtn .next {
+	background: url(../images/next_bj.jpg)
+} */
+
+.cooking_left {
+	width: 380px;
+	padding: 0 0 0 30px
+}
+
+.deseret_wmdptitle {
+	color: #775D4B;
+	font-size: 16px;
+	padding: 40px 0 20px
+}
+
+.deseret_wmdp li {
+	float: left;
+	text-align: center
+}
+
+.deseret_wmdp .img {
+	height: 155px
+}
+
+.deseret_wmdp a {
+	color: #998E71;
+	font-size: 14px;
+	line-height: 25px;
+	text-decoration: none
+}
+
+.deseret_wmdp a:hover {
+	color: #998E71;
+	text-decoration: underline
+}
+
+.holiday_idea,.taste_item {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	background: #A52F3A
+}
+
+.holiday_idea {
+	margin: 20px 0
+}
+
+.taste_item {
+	margin: 0 0 20px
+}
+
+.blossom,.entertain,.recipes,.sale_part1,.sale_part2,.springblossom,.taste_idea,.taste_menu {
+	position: relative;
+	width: 940px;
+	overflow: hidden
+}
+
+.blossom ul,.entertain ul,.recipes ul,.sale_part1 ul,.sale_part2 ul,.springblossom ul,.taste_idea ul,.taste_menu ul {
+	position: relative
+}
+
+.blossom li,.entertain li,.recipes li,.sale_part1 li,.sale_part2 li,.springblossom li,.taste_idea li,.taste_menu li {
+	position: relative;
+	float: left
+}
+
+.blossom li:hover .lbb_title,.entertain li:hover .lbb_title,.recipes li:hover .lbb_title,.sale_part1 li:hover .lbb_title,.sale_part2 li:hover .lbb_title,.springblossom li:hover .lbb_title,.taste_idea li:hover .lbb_title,.taste_menu li:hover .lbb_title {
+	display: none
+}
+
+.blossom li:hover .lbb_more,.entertain li:hover .lbb_more,.recipes li:hover .lbb_more,.sale_part1 li:hover .lbb_more,.sale_part2 li:hover .lbb_more,.springblossom li:hover .lbb_more,.taste_idea li:hover .lbb_more,.taste_menu li:hover .lbb_more {
+	display: block
+}
+
+.blossom .lbb_title,.entertain .lbb_title,.recipes .lbb_title,.sale_part1 .lbb_title,.sale_part2 .lbb_title,.springblossom .lbb_title,.taste_idea .lbb_title,.taste_menu .lbb_title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 67px
+}
+
+.blossom .title_layer,.entertain .title_layer,.recipes .title_layer,.sale_part1 .title_layer,.sale_part2 .title_layer,.springblossom .title_layer,.taste_idea .title_layer,.taste_menu .title_layer {
+	position: absolute;
+	height: 67px;
+	background: #fff;
+	opacity: .75;
+	filter: alpha(opacity=75)
+}
+
+.blossom .title_content,.entertain .title_content,.recipes .title_content,.sale_part1 .title_content,.sale_part2 .title_content,.springblossom .title_content,.taste_idea .title_content,.taste_menu .title_content {
+	position: absolute;
+	padding: 12px 0 0;
+	line-height: 20px;
+	text-align: center;
+	color: #A52F3A;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.blossom .title_content .en,.entertain .title_content .en,.recipes .title_content .en,.sale_part1 .title_content .en,.sale_part2 .title_content .en,.springblossom .title_content .en,.taste_idea .title_content .en,.taste_menu .title_content .en {
+	font-size: 22px;
+	text-transform: uppercase
+}
+
+.blossom .lbb_more,.entertain .lbb_more,.recipes .lbb_more,.sale_part1 .lbb_more,.sale_part2 .lbb_more,.springblossom .lbb_more,.taste_idea .lbb_more,.taste_menu .lbb_more {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: none
+}
+
+.blossom .more_layer,.entertain .more_layer,.recipes .more_layer,.sale_part1 .more_layer,.sale_part2 .more_layer,.springblossom .more_layer,.taste_idea .more_layer,.taste_menu .more_layer {
+	position: absolute;
+	background: #fff;
+	opacity: .75;
+	filter: alpha(opacity=75)
+}
+
+.blossom .more_content,.entertain .more_content,.recipes .more_content,.sale_part1 .more_content,.sale_part2 .more_content,.springblossom .more_content,.taste_idea .more_content,.taste_menu .more_content {
+	position: absolute;
+	text-align: center;
+	line-height: 25px;
+	font-size: 22px
+}
+
+.blossom .more_content span,.entertain .more_content span,.recipes .more_content span,.sale_part1 .more_content span,.sale_part2 .more_content span,.springblossom .more_content span,.taste_idea .more_content span,.taste_menu .more_content span {
+	color: #775D4B;
+	font-size: 14px
+}
+
+.blossom .more_content a,.entertain .more_content a,.recipes .more_content a,.sale_part1 .more_content a,.sale_part2 .more_content a,.springblossom .more_content a,.taste_idea .more_content a,.taste_menu .more_content a {
+	display: block;
+	text-decoration: none;
+	color: #a52f3a
+}
+
+.taste_idea ul {
+	left: -7px;
+	width: 954px;
+	height: 313px
+}
+
+.taste_idea li {
+	width: 463px;
+	height: 313px;
+	margin: 0 7px
+}
+
+.taste_idea .lbb_title,.taste_idea .title_layer {
+	width: 463px
+}
+
+.taste_idea .title_content {
+	width: 463px;
+	height: 55px
+}
+
+.taste_idea .lbb_more,.taste_idea .more_layer {
+	width: 463px;
+	height: 313px
+}
+
+.taste_idea .more_content {
+	width: 463px
+}
+
+.taste_idea .more_content a {
+	padding: 120px 0 0;
+	width: 463px;
+	height: 193px
+}
+
+.taste_menu ul {
+	left: -6px;
+	width: 952px
+}
+
+.taste_menu li {
+	width: 305px;
+	height: 370px;
+	margin: 0 6px 12px
+}
+
+.taste_menu .lbb_title,.taste_menu .title_layer {
+	width: 305px
+}
+
+.taste_menu .title_content {
+	width: 305px;
+	height: 55px
+}
+
+.taste_menu .lbb_more,.taste_menu .more_layer {
+	width: 305px;
+	height: 370px
+}
+
+.taste_menu .more_content {
+	width: 305px
+}
+
+.taste_menu .more_content a {
+	padding: 160px 0 0;
+	width: 305px;
+	height: 210px
+}
+
+.blossom,.entertain,.recipes,.sale_part1,.sale_part2,.springblossom {
+	height: 404px
+}
+
+.blossom ul,.entertain ul,.recipes ul,.sale_part1 ul,.sale_part2 ul,.springblossom ul {
+	width: 1890px;
+	height: 404px
+}
+
+.blossom li,.entertain li,.recipes li,.sale_part1 li,.sale_part2 li,.springblossom li {
+	float: left;
+	width: 310px;
+	height: 404px;
+	margin: 0 5px 0 0
+}
+
+.blossom .lbb_more,.entertain .lbb_more,.recipes .lbb_more,.sale_part1 .lbb_more,.sale_part2 .lbb_more,.springblossom .lbb_more {
+	width: 310px;
+	height: 404px
+}
+
+.blossom .more_layer,.entertain .more_layer,.recipes .more_layer,.sale_part1 .more_layer,.sale_part2 .more_layer,.springblossom .more_layer {
+	width: 310px;
+	height: 404px;
+	background: #1E1E1E;
+	opacity: .6;
+	filter: alpha(opacity=60)
+}
+
+.blossom a,.entertain a,.recipes a,.sale_part1 a,.sale_part2 a,.springblossom a {
+	display: block;
+	width: 310px;
+	height: 404px;
+	padding: 0;
+	color: #fff;
+	text-decoration: none
+}
+
+.blossom .more_content,.entertain .more_content,.recipes .more_content,.sale_part1 .more_content,.sale_part2 .more_content,.springblossom .more_content {
+	width: 310px;
+	height: 404px;
+	display: table;
+	*position: relative;
+	overflow: hidden
+}
+
+.blossom .more_content .more_font,.entertain .more_content .more_font,.recipes .more_content .more_font,.sale_part1 .more_content .more_font,.sale_part2 .more_content .more_font,.springblossom .more_content .more_font {
+	display: table-cell;
+	vertical-align: middle;
+	*position: absolute;
+	*top: 50%
+}
+
+.blossom .more_content p,.entertain .more_content p,.recipes .more_content p,.sale_part1 .more_content p,.sale_part2 .more_content p,.springblossom .more_content p {
+	*position: relative;
+	*top: -50%;
+	*left: -50%;
+	color: #fff;
+	font-size: 14px
+}
+
+.blossom .more_content .en,.entertain .more_content .en,.recipes .more_content .en,.sale_part1 .more_content .en,.sale_part2 .more_content .en,.springblossom .more_content .en {
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Georgia
+}
+
+.blossom ul,.entertain ul {
+	left: -5px;
+	top: 0;
+	width: 945px
+}
+
+.blossom ul li,.entertain ul li {
+	margin: 0 0 0 5px
+}
+
+.blossom {
+	width: 945px;
+	height: 380px;
+	padding: 0 0 5px
+}
+
+.blossom ul {
+	width: 945px;
+	height: 380px
+}
+
+.blossom .lbb_more,.blossom .more_content,.blossom .more_layer,.blossom a,.blossom li {
+	height: 380px
+}
+
+.sale_part1 {
+	width: 900px;
+	height: 305px;
+	padding: 0 0 10px;
+	margin: 0 auto
+}
+
+.sale_part1 ul {
+	width: 910px;
+	height: 305px
+}
+
+.sale_part1 li {
+	margin: 0 10px 0 0
+}
+
+.sale_part1 .sale-bigpic,.sale_part1 .sale-bigpic .lbb_more,.sale_part1 .sale-bigpic .more_content,.sale_part1 .sale-bigpic .more_layer,.sale_part1 .sale-bigpic a {
+	width: 502px;
+	height: 305px
+}
+
+.sale_part1 .sale-bigpic .more_content p {
+	font-size: 21px;
+	line-height: 28px
+}
+
+.sale_part1 .sale-bigpic .more_content .en {
+	font-size: 24px;
+	line-height: 18px
+}
+
+.sale_part1 .sale-smallpic,.sale_part1 .sale-smallpic .lbb_more,.sale_part1 .sale-smallpic .more_content,.sale_part1 .sale-smallpic .more_layer,.sale_part1 .sale-smallpic a {
+	width: 388px;
+	height: 305px
+}
+
+.sale_part1 .sale-smallpic .more_content p {
+	font-size: 21px;
+	line-height: 28px
+}
+
+.sale_part1 .sale-smallpic .more_content .en {
+	font-size: 24px;
+	line-height: 18px
+}
+
+.sale_part2 {
+	width: 900px;
+	height: 379px;
+	padding: 0 0 10px;
+	margin: 0 auto
+}
+
+.sale_part2 ul {
+	width: 909px;
+	height: 379px
+}
+
+.sale_part2 li {
+	width: 294px;
+	height: 379px;
+	margin: 0 9px 0 0
+}
+
+.sale_part2 .lbb_more,.sale_part2 .more_content,.sale_part2 .more_layer,.sale_part2 a {
+	width: 294px;
+	height: 379px
+}
+
+.sale_part2 .more_content p {
+	font-size: 21px;
+	line-height: 28px
+}
+
+.sale_part2 .more_content .en {
+	font-size: 24px;
+	line-height: 21px
+}
+
+.springblossom {
+	width: 945px;
+	height: 405px;
+	padding: 0 0 4px
+}
+
+.springblossom ul {
+	width: 945px;
+	height: 405px
+}
+
+.springblossom .lbb_more,.springblossom .more_content,.springblossom .more_layer,.springblossom a,.springblossom li {
+	height: 405px
+}
+
+.valentine.recipes li {
+	width: 231px;
+	margin: 0 5px 0 0
+}
+
+.valentine.recipes .lbb_more,.valentine.recipes .more_content,.valentine.recipes .more_layer {
+	width: 231px
+}
+
+.spring.recipes {
+	height: 350px
+}
+
+.spring.recipes ul {
+	width: 945px;
+	height: 350px
+}
+
+.spring.recipes li {
+	width: 231px;
+	margin: 0 5px 0 0;
+	height: 350px
+}
+
+.spring.recipes .lbb_more,.spring.recipes .more_content,.spring.recipes .more_layer {
+	width: 231px;
+	height: 350px
+}
+
+.decorating_list {
+	width: 940px;
+	overflow: hidden
+}
+
+.decorating_list ul {
+	width: 960px;
+	position: relative;
+	left: -10px
+}
+
+.decorating_list li {
+	float: left;
+	width: 220px;
+	margin: 10px
+}
+
+.decorating_list .img {
+	width: 220px;
+	height: 220px
+}
+
+.decorating_list .title {
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px
+}
+
+.decorating_list a {
+	color: #775D4B;
+	text-decoration: none
+}
+
+.decorating_list a:hover {
+	text-decoration: underline
+}
+
+.updown {
+	width: 940px;
+	height: 28px;
+	margin: 35px 0 30px;
+	border-bottom: 1px solid #b6ac91;
+	text-align: center
+}
+
+.updown .img {
+	display: inline-block;
+	width: 93px;
+	height: 28px;
+	text-indent: 193px;
+	overflow: hidden;
+	cursor: pointer
+}
+
+/* .updown .bgdown {
+	background: url(../images/down.jpg)
+} */
+
+/* .updown .bgup {
+	background: url(../images/up.jpg)
+} */
+
+.taste_pt30 {
+	padding-top: 30px
+}
+
+.cookers,.spring-cookers {
+	width: 940px;
+	height: 526px
+}
+
+.cookers .cookers-left,.spring-cookers .cookers-left {
+	float: left;
+	width: 468px;
+	height: 526px
+}
+
+.cookers .cookers-right,.spring-cookers .cookers-right {
+	float: right;
+	width: 462px;
+	height: 526px;
+	overflow: hidden
+}
+
+.cookers .cookers-right p,.spring-cookers .cookers-right p {
+	margin: 0 0 12px
+}
+
+.spring-cookers {
+	height: 525px
+}
+
+.spring-cookers .cookers-left {
+	float: left;
+	width: 468px;
+	height: 525px
+}
+
+.spring-cookers .cookers-right {
+	float: right;
+	width: 467px;
+	height: 525px;
+	overflow: hidden
+}
+
+.spring-cookers .cookers-right p {
+	margin: 0 0 5px
+}
+
+.america-line {
+	width: 940px;
+	height: 36px;
+	border-bottom: 1px solid #c4c6c5;
+	margin: 0 0 40px
+}
+
+.scrollbar {
+	width: 940px;
+	height: 12px;
+	margin: 26px 0 0
+}
+
+.scrollbar .scrollbar-left,.scrollbar .scrollbar-right {
+	float: left;
+	width: 20px;
+	height: 12px;
+	background: url(../../.././public/img/img/left.png);
+	
+	cursor: pointer
+}
+
+.scrollbar .scrollbar-center {
+	position: relative;
+	float: left;
+	width: 900px;
+	height: 12px
+}
+
+.scrollbar .scrollbar-middle {
+	width: 900px;
+	height: 12px;
+	background: #eaeaea
+}
+
+.scrollbar .scrollbar-right {
+	background: url(../../.././public/img/img/right.png);
+	
+	cursor: pointer
+}
+
+.scrollbar .scrollbar-line {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 225px;
+	height: 12px;
+	background: #A33A31
+}
+
+.book-list {
+	width: 940px;
+	overflow: hidden
+}
+
+.book-list ul {
+	position: relative;
+	left: -20px;
+	width: 960px
+}
+
+.book-list ul li {
+	float: left;
+	width: 300px;
+	height: 330px;
+	padding: 0 0 20px 20px;
+	color: #808285
+}
+
+.book-list ul li a {
+	color: #808285;
+	text-decoration: none
+}
+
+.book-list ul li a:hover {
+	text-decoration: underline
+}
+
+.book-list ul li .book-name {
+	height: 30px;
+	line-height: 30px;
+	text-align: center
+}
+
+.valentine-wrapper {
+	width: 940px;
+	overflow: hidden
+}
+
+.on-the-table {
+	position: relative;
+	width: 900px;
+	margin: 0 auto
+}
+
+.on-the-table .ideas-text-one,.on-the-table .ideas-text-three,.on-the-table .ideas-text-two,.on-the-table .text-one,.on-the-table .text-three,.on-the-table .text-two,.on-the-table .vd-text1,.on-the-table .vd-text2,.on-the-table .vd-text3 {
+	position: absolute;
+	top: 764px;
+	left: 610px;
+	width: 260px;
+	color: #c18b84;
+	line-height: 25px;
+	text-align: justify
+}
+
+.on-the-table .text-two {
+	top: 970px
+}
+
+.on-the-table .text-three {
+	top: 197px;
+	left: 105px
+}
+
+.on-the-table .ideas-text-one,.on-the-table .ideas-text-three,.on-the-table .ideas-text-two {
+	width: 275px;
+	color: #959891;
+	top: 109px;
+	left: 60px
+}
+
+.on-the-table .ideas-text-two {
+	top: 529px;
+	left: 610px
+}
+
+.on-the-table .ideas-text-three {
+	width: 270px;
+	top: 211px;
+	left: 590px;
+	letter-spacing: 1px
+}
+
+.on-the-table .vd-text1 {
+	top: 343px;
+	left: 600px
+}
+
+.on-the-table .vd-text2 {
+	top: 252px;
+	left: 60px;
+	width: 440px
+}
+
+.on-the-table .vd-text3 {
+	top: 120px;
+	left: 600px
+}
+
+.deco-border,.ott-border,.vd-border {
+	padding: 0 0 30px;
+	border-bottom: 1px dashed #c18b84
+}
+
+.vd-border {
+	padding: 0 0 70px
+}
+
+.deco-border {
+	padding: 0 0 50px
+}
+
+.ott-list-wrapper {
+	width: 960px;
+	padding: 40px 0 0
+}
+
+.ott-list-wrapper .ott-product {
+	float: left;
+	width: 220px;
+	margin: 0 20px 20px 0
+}
+
+.ott-list-wrapper .ott-product p {
+	width: 220px;
+	height: 30px;
+	color: #775d4b;
+	line-height: 30px;
+	text-align: center;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis
+}
+
+.ott-list-wrapper .ott-product .img {
+	width: 220px;
+	height: 220px;
+	margin: 0;
+	border: none;
+	overflow: hidden
+}
+
+.ott-list-wrapper .ott-product a {
+	text-decoration: none
+}
+
+.ott-list-wrapper .ott-product a:hover {
+	text-decoration: underline
+}
+
+.ideas-padding-50 {
+	padding: 50px 0
+}
+
+.ideas-text {
+	padding: 50px 65px;
+	color: #959891;
+	line-height: 25px;
+	text-align: justify
+}
+
+.ideas-text p {
+	padding: 0 0 25px
+}
+
+.ideas-title-img {
+	position: absolute;
+	top: 160px;
+	left: 658px
+}
+
+.deco_wrapper {
+	width: 940px
+}
+
+.deco_text1,.deco_text2,.deco_text3,.deco_text4,.deco_text5,.deco_text6 {
+	position: absolute;
+	top: 126px;
+	right: 45px;
+	width: 266px;
+	color: #808285;
+	line-height: 24px;
+	text-align: justify
+}
+
+.deco_text2 {
+	top: 367px;
+	right: 45px
+}
+
+.deco_text3 {
+	top: 178px;
+	left: 45px;
+	width: 256px
+}
+
+.deco_text4 {
+	top: 101px;
+	right: 45px;
+	width: 256px
+}
+
+.deco_text5 {
+	top: 366px;
+	right: 45px;
+	width: 256px
+}
+
+.deco_text6 {
+	top: 178px;
+	left: 45px;
+	width: 256px
+}
+
+.spring-wqhg {
+	width: 940px;
+	height: 250px
+}
+
+.spring-wqhg .spring-wqhg-left {
+	float: left;
+	width: 468px
+}
+
+.spring-wqhg .spring-wqhg-right {
+	float: right;
+	width: 467px
+}
+
+.usTaste-history {
+	height: 250px;
+	width: 940px;
+	position: relative;
+	overflow: hidden
+}
+
+.usTaste-history ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 250px;
+	width: 950px
+}
+
+.usTaste-history li {
+	float: left;
+	width: 468px;
+	padding-right: 5px
+}
+
+.usTaste-history img {
+	display: block;
+	width: 468px
+}
+
+.usTaste-history .btnNext,.usTaste-history .btnPrev {
+	position: absolute;
+	top: 104px;
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../../.././public/img/Resources/images/icon_arrow.png) no-repeat
+}
+
+.usTaste-history .btnPrev {
+	left: 10px
+}
+
+.usTaste-history .btnNext {
+	right: 10px;
+	background-position: -35px 0
+}
