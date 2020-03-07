@@ -27,6 +27,7 @@ const Cart = () => import('../views/singlePage/Cart')
 const Decoration = () => import('../views/product/Decoration')
 const Vase = () => import('../views/product/Vase')
 const Paint = () => import('../views/product/Paint')
+const Carpet = () => import('../views/details/Carpet')
 
 Vue.use(VueRouter)
 
@@ -126,7 +127,11 @@ const routes = [
     name: 'Paint',
     component:Paint
   },
-  
+  {
+    path: '/carpet',
+    name: 'Carpet',
+    component:Carpet
+  },
   // {
   //   path: '/about',
   //   name: 'about',

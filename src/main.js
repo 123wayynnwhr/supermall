@@ -5,11 +5,11 @@ import store from './store'
 import MyHeader from './components/common/MyHeader'
 import MyFooter from './components/common/MyFooter'
 import $ from "jquery";
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
-// import MintUI from "mint-ui"
-// import "mint-ui/lib/style.css"
-// Vue.use(MintUI)
 
+Vue.use(ElementUI);
 
 Vue.prototype.$ = $
 Vue.component("my-header",MyHeader)

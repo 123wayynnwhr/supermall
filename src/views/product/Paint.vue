@@ -18,13 +18,13 @@
             <dl>
               <dt>
                 <span></span>
-                <a >花/花瓶</a>
+                <a>花/花瓶</a>
               </dt>
 
               <dd style="display: none;">
                 <ul class="subnav">
                   <li>
-                    <a >花</a>
+                    <a>花</a>
                   </li>
                   <li>
                     <a>花盆</a>
@@ -33,7 +33,7 @@
                     <a>花瓶</a>
                   </li>
                   <li>
-                    <a >盆栽/盆景</a>
+                    <a>盆栽/盆景</a>
                   </li>
                   <li>
                     <a>花瓶填充物</a>
@@ -50,13 +50,13 @@
               <dd style="display: block;">
                 <ul class="subnav">
                   <li>
-                    <a >座钟</a>
+                    <a>座钟</a>
                   </li>
                   <li>
-                    <a >各类摆饰</a>
+                    <a>各类摆饰</a>
                   </li>
                   <li>
-                    <a >书桌摆件</a>
+                    <a>书桌摆件</a>
                   </li>
                   <li>
                     <a>相框</a>
@@ -79,7 +79,7 @@
                     <a>蜡烛</a>
                   </li>
                   <li>
-                    <a >烛台</a>
+                    <a>烛台</a>
                   </li>
                 </ul>
               </dd>
@@ -87,7 +87,7 @@
             <dl>
               <dt>
                 <span></span>
-                <a >收纳容器</a>
+                <a>收纳容器</a>
               </dt>
 
               <dd style="display: none;">
@@ -96,16 +96,16 @@
                     <a>套件</a>
                   </li>
                   <li>
-                    <a >装饰储物罐</a>
+                    <a>装饰储物罐</a>
                   </li>
                   <li>
-                    <a >篮筐</a>
+                    <a>篮筐</a>
                   </li>
                   <li>
                     <a>装饰盒</a>
                   </li>
                   <li>
-                    <a >托盘/装饰碗</a>
+                    <a>托盘/装饰碗</a>
                   </li>
                 </ul>
               </dd>
@@ -119,10 +119,10 @@
               <dd style="display: none;">
                 <ul class="subnav">
                   <li>
-                    <a >卫浴用品</a>
+                    <a>卫浴用品</a>
                   </li>
                   <li>
-                    <a >熏香</a>
+                    <a>熏香</a>
                   </li>
                   <li>
                     <a>镜子</a>
@@ -133,10 +133,10 @@
             <h3>特色 Features</h3>
             <ul class="subnav">
               <li>
-                <a >新品</a>
+                <a>新品</a>
               </li>
               <li>
-                <a >促销</a>
+                <a>促销</a>
               </li>
               <li>
                 <a>夏季装饰</a>
@@ -145,23 +145,25 @@
             <h3 data-type="sub312" style="display:none;">窗帘定制服务 Service</h3>
             <ul class="subnav" data-type="sub312" style="display:none;">
               <li>
-                <a >1 选择窗帘款式</a>
+                <a>1 选择窗帘款式</a>
               </li>
               <li>
-                <a >2 选择面料及配件</a>
+                <a>2 选择面料及配件</a>
               </li>
               <li>
-                <a >3 尺寸测量说明</a>
+                <a>3 尺寸测量说明</a>
               </li>
               <li>
-                <a >4 价格计算说明</a>
+                <a>4 价格计算说明</a>
               </li>
             </ul>
-
           </div>
           <div class="advert">
             <a target="_blank">
-              <img title src="../../../public/img/images/UploadFile/UeditorUP/20150324/6356281127471795297694180.jpg" />
+              <img
+                title
+                src="../../../public/img/images/UploadFile/UeditorUP/20150324/6356281127471795297694180.jpg"
+              />
             </a>
           </div>
         </div>
@@ -253,7 +255,7 @@
                   class="folder"
                   onclick="javascript:location.href='/product-list-sku-568/1#pg'"
                 ></span>
-                <a >取消合并</a>
+                <a>取消合并</a>
               </div>
             </div>
             <div class="s_category hide"></div>
@@ -286,21 +288,19 @@
                 </ul>
               </div>
               <h4>
-                <a
-                  :title="item.title"
-                  target="_blank"
-                >{{item.title}}</a>
+                <a :title="item.title" target="_blank">{{item.title}}</a>
               </h4>
 
               <p class="price">
                 ￥{{item.price}}
                 <span class="label">New</span>
                 <button @click="addcart(item.pid,item.title,item.price)">加入购物车</button>
-              <button size="large" @click="findCart">查看购物车</button>
+                <button size="large" @click="findCart">查看购物车</button>
               </p>
             </div>
           </div>
-          <div class="pagination PT30 clearfix">
+
+          <!-- <div class="pagination PT30 clearfix">
             <ul>
               <li>
                 <a href="javascript:void(0);" class="first disable"></a>
@@ -316,21 +316,40 @@
                 <a class="last"></a>
               </li>
             </ul>
+          </div>-->
+
+          <!-- 分页区域 -->
+          <div class="block">
+            <span class="demonstration">完整功能</span>
+            <el-pagination
+              @size-change="handleSizeChange"
+              @current-change="handleCurrentChange"
+              :current-page="pno"
+              :page-sizes="[12, 20]"
+              :page-size="pagesize"
+              layout="total, sizes, prev, pager, next, jumper"
+            ></el-pagination>
           </div>
         </div>
       </div>
     </div>
+
     <my-footer></my-footer>
   </div>
 </template>
 
 <script>
 import MyFooter from "../../components/common/MyFooter";
+
+import "../.././assets/js/newbanner.js"
+
 export default {
   data() {
     return {
       list: [],
-      pno: 1
+      pno: 1,
+      pagesize: 16,
+      total: 0
     };
   },
   components: {
@@ -340,6 +359,16 @@ export default {
     this.loadMore();
   },
   methods: {
+    handleSizeChange(newpagesize) {
+      this.pagesize = newpagesize;
+      console.log(`每页 ${this.pagesize} 条`);
+      this.loadMore();
+    },
+    handleCurrentChange(newpno) {
+      this.pno = newpno;
+      console.log(`当前页: ${this.pno}`);
+      this.loadMore();
+    },
     toggle: function(ev) {
       var $title = $(ev.target);
       $title
@@ -351,14 +380,20 @@ export default {
     findCart() {
       this.$router.push("/Cart");
     },
+
     loadMore() {
       var url = "paint";
+      this.pno++;
       var obj = {
-        pno: this.pno
+        pno: this.pno,
+        pageSize: this.pagesize
       };
+
       this.axios.get(url, { params: obj }).then(res => {
         console.log(res);
         this.list = res.data.data;
+        this.total= res.data.data.length;
+        console.log(this.total)
       });
     },
     addcart(lid, lname, price) {
